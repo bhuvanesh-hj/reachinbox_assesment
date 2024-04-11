@@ -12,7 +12,7 @@ export default function Home() {
           <div className=' m-auto w-[460px] h-auto md:h-[312px]  bg-[#111214] rounded-2xl border border-gray-700  py-6  px-10 '>
             <div className=' w-[380px] m-auto'>
               <p className=' text-xl mb-6 text-center font-sans'>Create a new account</p>
-              <Link href={"https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reachinbox-assesment-mmlt-38z531iuh-bhuvanesh-hjs-projects.vercel.app//dashboard"}>
+              <Link href={"https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reachinbox-assesment-mmlt-38z531iuh-bhuvanesh-hjs-projects.vercel.app/dashboard"}>
                 <div className='rounded border border-gray-500 h-12 flex justify-center items-center gap-2.5  mb-12'>
                   <Image src="/Login/Frame.png" alt="google_logo" className='bg-black rounded-full mt-0.5' width={16} height={21} />
                   <p className='text-sm text-gray-400 cursor-pointer font-sans'> Sign Up with Google </p>
